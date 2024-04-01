@@ -1,0 +1,15 @@
+name: project
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9
+  - tqdm
+  - pytorch
+  - torchvision
+  - transformers
+  - pip
+  - pip:
+      - matplotlib
+      - pillow
+      - git+https://github.com/openai/CLIP.git
